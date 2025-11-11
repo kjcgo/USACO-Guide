@@ -1,4 +1,3 @@
-package basic_complete_search;
 import java.io.*;
 
 //https://codeforces.com/gym/102951/problem/A
@@ -36,7 +35,7 @@ public class MaximumDistance {
 				 //System.out.println("a is " + a + " b is " + b);
 				 //System.out.println(Math.pow((Math.pow(a, 2) + Math.pow(b, 2)), .5));
 				 
-				 max = Math.max(max, Math.pow(Math.pow((Math.pow(a, 2) + Math.pow(b, 2)), .5), 2));
+				 max = Math.max(max, (Math.pow(a, 2) + Math.pow(b, 2)));
 				 
 			}
 		}

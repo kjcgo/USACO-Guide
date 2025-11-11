@@ -1,5 +1,4 @@
 package basic_complete_search;
-import java.util.*;
 import java.io.*;
 
 //https://codeforces.com/gym/102951/problem/A

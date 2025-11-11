@@ -1,3 +1,4 @@
+package basic_complete_search;
 import java.util.*;
 import java.io.*;
 
@@ -29,22 +30,21 @@ public class MaximumDistance {
 		double max = 0;
 		//compare every coord with each other
 		for(int i = 0; i < N; i++) {
-			for(int j = i; j < N; j++) {
+			for(int j = i+1; j < N; j++) {
 				 a = Math.abs(coords[i][0] - coords[j][0]);
 				 b = Math.abs(coords[i][1] - coords[j][1]);
 				 
 				 //System.out.println("a is " + a + " b is " + b);
 				 //System.out.println(Math.pow((Math.pow(a, 2) + Math.pow(b, 2)), .5));
 				 
-				 max = Math.max(max, Math.pow((Math.pow(a, 2) + Math.pow(b, 2)), .5));
+				 max = Math.max(max, Math.pow(Math.pow((Math.pow(a, 2) + Math.pow(b, 2)), .5), 2));
 				 
 			}
 		}
 		
-		System.out.println((int)(max * max));
+		System.out.println((int)Math.round(max));
 		
 		
 		
 	}
 }
-

@@ -1,21 +1,26 @@
+package basic_complete_search;
+
 //https://usaco.org/index.php?page=viewproblem2&cpid=963
 
 import java.io.*;
 import java.util.*;
 
-
-public class CowGymnastics {
+public class CowGymnastics1{
 	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String[] line = br.readLine().split(" ");
 		
+		
+		BufferedReader br = new BufferedReader(new FileReader("gymnastics.in"));
+		PrintWriter out = new PrintWriter(new FileWriter("gymnastics.out"));
+
+		//get input
+		//rounds plus cow count
+		String[] line = br.readLine().split(" ");
 		int a = Integer.parseInt(line[0]);
 		int b = Integer.parseInt(line[1]);
 		
+		//all the pairs discovered
 		ArrayList<int[]> pairs = new ArrayList<>();
-		ArrayList<int[]> newPairs = new ArrayList<>();
-		
-		int[] pr = new int[2];
+		int pr[];
 		
 		//read the initial line to find the pairs
 		line = br.readLine().split(" ");
@@ -25,52 +30,56 @@ public class CowGymnastics {
 				pairs.add(pr);
 			}
 		}
-		for(int[] x : pairs) {
-			newPairs.add(x.clone());
-		}
-
+		
 		/*
-		
+		for(int[] x : pairs) {
+			System.out.println(x[0] + " " + x[1]);
+		}
 		*/
+		ArrayList<int[]> toRemove = new ArrayList<>();
 		
-		String inp;
+		String[] inp;
+		ArrayList<Integer> lines = new ArrayList<>();
 		//for every line
 		for(int i = 0; i < a-1; i++) {
-			 inp = br.readLine().replaceAll(" ", "");
+			
+			 inp = br.readLine().split(" ");
+			 for(String x : inp) {
+				 lines.add(Integer.parseInt(x));
+			 }
 			 //System.out.println(inp);
 			 
 			 //System.out.println("NEW ROW");
-			 for(int j = 0; j < pairs.size(); j++) {
+			 for(int[] j : pairs) {
 				 
-				 //if the index of the first in the pair in the string
-				 //is greater than the index of the second in the pair in the string
-				 //remove from valid pairs
-				 //System.out.println(pairs.get(j)[0] + " " + pairs.get(j)[1]);
-				 
-				 //System.out.println("INDEXES");
-				 //System.out.println(pairs.get(j)[0] +" "+  pairs.get(j)[1]);
-				 
-				 //System.out.println("Here " + inp.indexOf((char)pairs.get(j)[0]+ '0'));
-				 //System.out.println("here again " + inp.indexOf((char)pairs.get(j)[1] + '0'));
-				 
-				 if(inp.indexOf((char)pairs.get(j)[0]+ '0') > inp.indexOf((char)pairs.get(j)[1] + '0')) {
-					
-					 //System.out.println("removing " + pairs.get(j)[0] + " " + pairs.get(j)[1]);
-					 int q = pairs.get(j)[0];
-					 int r = pairs.get(j)[1];
-					 newPairs.removeIf(arr -> arr[0] == q && arr[1] == r);
+				 if(lines.indexOf(j[0]) > lines.indexOf(j[1])) {
 					 
-					 //System.out.println("removed");
+					 toRemove.add(j);
+					 //System.out.println("Removing " + j[0] + " " + j[1]);
 				 }
 			 }
+			 
+			 for(int[] k : toRemove) {
+				 pairs.remove(k);
+			 }
+			 lines.clear();
+			 toRemove.clear();
 		}
 		
-		/*
-		 for(int[] x : newPairs) {
-				System.out.println(x[0] + " " + x[1]);
-			}
-		*/
-		System.out.println(newPairs.size());
+		
+		//System.out.println(pairs.size());
+		
+		
+		 
+		
+		
+		out.println(pairs.size());
+		
+		System.out.println(pairs.size());
+		out.close();
+		br.close();
+
+
 		
 	}
 }

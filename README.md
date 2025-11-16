@@ -8,3 +8,6 @@ November 11, 2025
 
 November 13, 2025
 - Cow Gymnastics (Bronze Complete Search)
+
+November 15, 2025
+- Apple Division (Bronze Complete Search with Recursion)

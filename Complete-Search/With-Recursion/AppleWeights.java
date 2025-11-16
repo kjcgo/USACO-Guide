@@ -6,6 +6,7 @@ import java.io.*;
 //3. return difference at end
 
 // Resources: 
+// https://cses.fi/problemset/result/15310028/
 // code is from - https://usaco.guide/bronze/complete-rec
 // very helpful video explaination - https://www.youtube.com/watch?v=fjqJVMJlykw 
 // simulating the decision tree! iterate over the list, decide to put the ith apple

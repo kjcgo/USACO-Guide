@@ -12,3 +12,5 @@ November 13, 2025
 November 15, 2025
 - Apple Division (Bronze Complete Search with Recursion)
     Note: review this problem once bitmasks are studied in detail
+- Creating Strings (Bronze Complete Search with Recursion)
+  

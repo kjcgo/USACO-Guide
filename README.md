@@ -16,3 +16,4 @@ November 15, 2025
   
 November 18, 2025
 - Chessboard and Queens (Bronze Complete Search with Recursion)
+- Distinct Numbers (Bronze Intro to Sorting)

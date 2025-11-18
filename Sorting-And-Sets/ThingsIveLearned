@@ -1,0 +1,6 @@
+Distinct Numbers
+- My first submissions were timing out. Using Arrays.sort() uses quicksort, O(n^2) worst case. Using objects in array will force it to use mergesort, O(N log N) guaranteed! Hooray for inbuilt sorting!!
+
+
+
+

@@ -14,3 +14,5 @@ November 15, 2025
     Note: review this problem once bitmasks are studied in detail
 - Creating Strings (Bronze Complete Search with Recursion)
   
+November 18, 2025
+- Chessboard and Queens (Bronze Complete Search with Recursion)

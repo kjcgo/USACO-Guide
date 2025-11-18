@@ -1,3 +1,4 @@
+/usepackage{asmath}
 Creating Strings
 - Equation for distinct number of permutations in a multiset
 \$n! / (n1! * n2! * ... * nk!)\

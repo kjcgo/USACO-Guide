@@ -1,4 +1,4 @@
 Creating Strings
 - Equation for distinct number of permutations in a multiset
-n! / (n1! * n2! * ... * nk!)
+$n! / (n1! * n2! * ... * nk!)$
 - Visualize building possible solutions as a tree with each node representing an addition to the solution

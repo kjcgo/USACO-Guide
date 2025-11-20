@@ -8,3 +8,8 @@ Apple Division
 
 Chessboard and Queens
 - Permutations: reordering of a list of elements. If n ≤ 10, brute force is OK
+
+Bovine Genomics
+- Using sets can be helpful for comparing elements.
+  Collections.disjoint(setA, setB)
+  Set<T> mySet = new HashSet<>();

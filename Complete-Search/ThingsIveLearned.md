@@ -11,5 +11,5 @@ Chessboard and Queens
 
 Bovine Genomics
 - Using sets can be helpful for comparing elements.
-  Collections.disjoint(setA, setB)
-  Set<T> mySet = new HashSet<>();
+- Collections.disjoint(setA, setB)
+- Set<T> mySet = new HashSet<>();

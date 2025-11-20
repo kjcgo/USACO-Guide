@@ -20,3 +20,6 @@ November 18, 2025
 
 November 19, 2025
 - Kayaking (Bronze Intro to Sorting)
+
+November 20, 2025
+- Bovine Genomics (Bronze Complete Search)

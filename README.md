@@ -1,5 +1,5 @@
 # USACO-Guide
-Working my way through every article and recommended problem from bronze to platinum in the USACO guide
+Working my way through every article and recommended problem in the USACO guide
 
 Progress Log
 

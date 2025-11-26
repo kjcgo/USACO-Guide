@@ -23,3 +23,6 @@ November 19, 2025
 
 November 20, 2025
 - Bovine Genomics (Bronze Complete Search)
+
+November 25, 2025
+- Where Am I? (Bronze Intro to Sets & Maps)

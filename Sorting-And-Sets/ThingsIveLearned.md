@@ -6,5 +6,7 @@ Kayaking
 - Combo of complete search and sorting. Remember to reassign an ArrayList: 
   a.clear(); a.addAll(b);
 
-
+Don't Be Last
+- Iterating over a HashMap:
+    for(Map.Entry<String, Integer> mapElement: hm.entrySet()){}
 

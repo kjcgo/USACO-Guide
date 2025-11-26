@@ -26,3 +26,6 @@ November 20, 2025
 
 November 25, 2025
 - Where Am I? (Bronze Intro to Sets & Maps)
+
+November 26, 2025
+- Don't Be Last (Bronze Intro to Sets & Maps)

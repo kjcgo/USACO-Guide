@@ -29,3 +29,6 @@ November 25, 2025
 
 November 26, 2025
 - Don't Be Last (Bronze Intro to Sets & Maps)
+
+November 27, 2025
+- Sleepy Cow Herding (Bronze Casework)

@@ -32,3 +32,6 @@ November 26, 2025
 
 November 27, 2025
 - Sleepy Cow Herding (Bronze Casework)
+
+November 29, 2025
+- Mad Scientist (Bronze Intro to Greedy)

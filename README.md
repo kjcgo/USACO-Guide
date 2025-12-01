@@ -35,3 +35,9 @@ November 27, 2025
 
 November 29, 2025
 - Mad Scientist (Bronze Intro to Greedy)
+
+November 30, 2025
+- Out of Place (Bronze Intro to Greedy)
+
+December 1, 2025
+- Photoshoot (Bronze Intro to Greedy)

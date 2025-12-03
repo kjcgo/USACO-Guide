@@ -41,3 +41,6 @@ November 30, 2025
 
 December 1, 2025
 - Photoshoot (Bronze Intro to Greedy)
+
+December 3, 2025
+- Race (Bronze Intro to Greedy) //needed a lot of help with this one

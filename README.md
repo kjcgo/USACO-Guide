@@ -46,4 +46,5 @@ December 3, 2025
 - Race (Bronze Intro to Greedy) //needed a lot of help with this one
 
 December 4, 2025
-- Static Range Sum (Silver Intro to Prefix Sums) //technically completed before, but started module review today
+- Static Range Sum (Silver Intro to Prefix Sums) //completed before, started module review today
+- Summing to Sevens (Silver Intro to Prefix Sums) //also completed before, but redid without looking at the reference

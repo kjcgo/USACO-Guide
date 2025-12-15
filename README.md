@@ -48,3 +48,8 @@ December 3, 2025
 December 4, 2025
 - Static Range Sum (Silver Intro to Prefix Sums) //completed before, started module review today
 - Summing to Sevens (Silver Intro to Prefix Sums) //also completed before, but redid without looking at the reference
+
+(Finals Hiatus)
+
+December 15, 2025
+- Why Did the Cow Cross the Road II

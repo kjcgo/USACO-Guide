@@ -24,4 +24,4 @@ Why Did The Cow Cross the Road II
 	@Override
 	public int hashCode() {
 	    return 31 * cow1 + cow2;
-	}```
+	}

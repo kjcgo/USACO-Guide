@@ -17,11 +17,11 @@ Bovine Genomics
 Why Did The Cow Cross the Road II
 - Override equals and hashCode to use custom class in HashSet
 - For example:
-  @Override
+  '''@Override
 	public boolean equals(Object obj) {
 		return (obj instanceof Pair && cow1 == ((Pair)obj).cow1 && cow2 == ((Pair)obj).cow2);	
 	}
 	@Override
 	public int hashCode() {
 	    return 31 * cow1 + cow2;
-	}
+	}'''

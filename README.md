@@ -52,6 +52,8 @@ December 4, 2025
 (Finals Hiatus)
 
 December 15, 2025
-- Why Did the Cow Cross the Road II
+- Why Did the Cow Cross the Road II (Bronze Basic Complete Search)
+  
 December 21, 2025
-- Livestock Lineup
+- Livestock Lineup (Bronze Intro to Graphs)
+- Diamond Collector (Bronze Basic Complete Search)

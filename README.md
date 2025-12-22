@@ -53,3 +53,5 @@ December 4, 2025
 
 December 15, 2025
 - Why Did the Cow Cross the Road II
+December 21, 2025
+- Livestock Lineup

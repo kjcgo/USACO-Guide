@@ -57,3 +57,6 @@ December 15, 2025
 December 21, 2025
 - Livestock Lineup (Bronze Intro to Graphs)
 - Diamond Collector (Bronze Basic Complete Search)
+
+December 26, 2025
+- Milk Factory (Bronze Intro to Graphs)

@@ -63,3 +63,6 @@ December 26, 2025
 
 December 30, 2025
 - Breed Counting (Silver Intro to Prefix Sums)
+
+January 2, 2025
+- Hoof Paper Scissors (Silver Intro to Prefix Sums)

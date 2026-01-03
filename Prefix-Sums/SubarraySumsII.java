@@ -1,7 +1,7 @@
 //package prefixSums;
 import java.io.*;
 import java.util.*;
-//https://cses.fi/problemset/result/15821944/
+//https://cses.fi/problemset/task/1661/
 
 public class SubarraySumsII {
 	public static void main(String[] args) throws NumberFormatException, IOException {

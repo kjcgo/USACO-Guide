@@ -1,7 +1,7 @@
 package graph_traversal;
 import java.io.*;
 import java.util.*;
-//https://usaco.org/index.php?page=viewproblem2&cpid=668
+
 public class Moocast {
 	static boolean[] visited;
 	static List<Cow>[] adj;

@@ -69,3 +69,10 @@ January 2, 2026
 
 January 3, 2026
 - Subarray Sums II (Silver Intro to Prefix Sums)
+
+January 4, 2026
+- Building Teams (Silver Graph Traversal)
+- Building Roads (Silver Graph Traversal)
+  
+January 5, 2026
+- Moocast (Silver Graph Traversal) //review again later

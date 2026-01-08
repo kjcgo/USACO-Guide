@@ -79,3 +79,4 @@ January 5, 2026
 
 January 7, 2026
 - Closing the Farm (Silver Graph Traversal)
+- Fence Planning (Silver Graph Traversal)

@@ -84,3 +84,6 @@ January 7, 2026
 January 8, 2026
 - Birthday Party (Silver Graph Traversal)
 - Rank (Silver Graph Traversal)
+
+January 9, 2026
+- Flight Routes Check (Silver Graph Traversal)

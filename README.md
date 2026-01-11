@@ -89,4 +89,4 @@ January 9, 2026
 - Flight Routes Check (Silver Graph Traversal)
 
 January 11, 2026
-- Books (Silver Prefix Sums)
+- Books (Silver Two Pointers)

@@ -92,3 +92,6 @@ January 11, 2026
 - Books (Silver Two Pointers)
 - Sum of Two Values (Silver Two Pointers)
 - Sum of Three Values (Silver Two Pointers)
+
+January 12, 2026
+- Message Route (Gold Shortest Unweighted Paths)
